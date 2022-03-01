@@ -33,6 +33,7 @@ img {
 
 .header__title {
     text-align: center;
+
 }
 
 .header__content {
@@ -55,6 +56,11 @@ img {
     object-fit: contain;
 }
 
+.table-of-contents__title, .article__title {
+    color: #9801d9;
+    font-family: sans-serif;
+}
+
 
 .article__content {
     text-align: justify;
@@ -63,6 +69,8 @@ img {
 .article__content p{
     margin: 7px 0;
 }
+
+
 
 .article__content-img {
     height:400px;
@@ -75,6 +83,13 @@ img {
     width:100%;
     height:100%;
 }
+
+.article__content-one {
+    height:100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 .article__content-code {
     background-color: #c0c0c0;
